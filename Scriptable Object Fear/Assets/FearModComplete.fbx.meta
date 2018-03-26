@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: ce66d95970bb644099ad1a5d7876b0d4
-timeCreated: 1522025985
+guid: a5f71125a1a8c42bcaa4fd76c42430bb
+timeCreated: 1522031266
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -201,13 +201,15 @@ ModelImporter:
     400190: Tomato2
     400192: transform1
     400194: transform2
-    2100000: lambert10
-    2100002: CUBE_002
-    2100004: UVMapper1
-    2100006: PATCH_001
-    2100008: CUBE_003
-    2100010: Green
+    2100000: lambert13
+    2100002: lambert19
+    2100004: lambert18
+    2100006: lambert16
+    2100008: lambert17
+    2100010: lambert15
     2100012: lambert1
+    2100014: lambert20
+    2100016: lambert21
     2300000: Card
     2300002: Stand
     2300004: Tomato1
@@ -221,10 +223,52 @@ ModelImporter:
     4300004: Stand
     4300006: Tomato1
     4300008: Tomato2
-    7400000: Take 001
+    7400000: Speaking
+    7400002: Shock
+    7400004: Block
     9500000: //RootNode
     13700000: Body1
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: FearSuitObj_GenericMesh_V10_1_AR__GenericMeshv3a_lambert8SG_AlbedoTransparency
+    second: {fileID: 2800000, guid: 9f7e141abc45a422da695a3c4426c59b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: FearSuitObj_GreenSG_AlbedoTransparency
+    second: {fileID: 2800000, guid: 5e563c0b363bf406aab0379f6d4cbd0a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: FearSuitObj_lambert10SG_AlbedoTransparency
+    second: {fileID: 2800000, guid: 6a2d9063a819a42ee822d7ba7d067772, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: FearSuitObj_lambert11SG_AlbedoTransparency
+    second: {fileID: 2800000, guid: 19f3d05176c1b4265a0417120c22a1c2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: FearSuitObj_lambert8SG_AlbedoTransparency
+    second: {fileID: 2800000, guid: 1888f16d7c8f943228c516e0a487618b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: FearSuitObj_lambert9SG_AlbedoTransparency
+    second: {fileID: 2800000, guid: 285a0a8e22f974844870497c88926cee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stand_initialShadingGroup_AlbedoTransparency
+    second: {fileID: 2800000, guid: 044a582faaaca4ff6945d72a6a1f058e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tomato_initialShadingGroup_AlbedoTransparency
+    second: {fileID: 2800000, guid: 6398d7d8473cd4f27acfd3707a8f0847, type: 3}
   materials:
     importMaterials: 1
     materialName: 0
@@ -250,7 +294,91 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Speaking
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Shock
+      takeName: Take 001
+      firstFrame: 3
+      lastFrame: 4
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Block
+      takeName: Take 001
+      firstFrame: 5
+      lastFrame: 6
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []

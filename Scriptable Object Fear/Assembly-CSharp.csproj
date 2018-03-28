@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E0F00EFA-A658-B86D-AE51-BB0E1B559DC3}</ProjectGuid>
+    <ProjectGuid>{330267C3-DE88-1427-2F15-9DF0890F5BE2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -77,6 +77,7 @@
      <Compile Include="Assets\Code\Variables\VariableAudioTrigger.cs" />
      <Compile Include="Assets\EnterState.cs" />
      <Compile Include="Assets\ExitState.cs" />
+     <Compile Include="Assets\Scripts\BlueLight.cs" />
      <Compile Include="Assets\Scripts\Character.cs" />
      <Compile Include="Assets\Scripts\CharacterDisplay.cs" />
      <Compile Include="Assets\StartState.cs" />
